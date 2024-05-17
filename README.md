@@ -15,8 +15,7 @@ import subprocess
 
 # Create the programs_to_run.txt file
 programs = [
-    "py test.py",
-    "py test2.py"
+    "py applicationToRun.py",
 ]
 
 with open('programs_to_run.txt', 'w') as file:
