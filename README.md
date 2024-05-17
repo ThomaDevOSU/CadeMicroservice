@@ -34,3 +34,4 @@ Data from the microservice can be observed in the form of commands being removed
 Succesful operations are noted in the terminal by the microservice.
 The user is responsible for handling Data proccessed by commands executed by the microservice
 
+![CadeMicroservice](https://github.com/ThomaDevOSU/CadeMicroservice/assets/166056408/92df0f8d-cdfb-4dd0-855f-49896ca3e892)
