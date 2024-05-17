@@ -32,7 +32,19 @@ Once running, the microservice will execute each command listed in the `programs
 
 Data from the microservice can be observed in the form of commands being removed from the `programs_to_run.txt`.
 Succesful operations are noted in the terminal by the microservice.
-The user is responsible for handling Data proccessed by commands executed by the microservice
+The user is responsible for handling Data proccessed by commands executed by the microservice. An example of using the `programs_to_run.txt` to evaluate data might be as follows.
+```sh
+while True:
+    time.sleep(1)
+
+    with open('programs_to_run.txt', 'r') as file:
+        lines = file.readlines()
+
+    if not lines:
+        print("The MicroService is Done!")
+        break
+```
+In this example, once the microservice has been called we wait on the .txt file to be fully empty before continuing with our application.
 
 ### UML Sequence Diagram
 
